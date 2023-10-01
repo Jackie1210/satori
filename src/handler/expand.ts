@@ -189,6 +189,12 @@ function handleSpecialCase(
     }
   }
 
+  if (name === 'backdropFilter') {
+    return {
+      backdropFilter: splitEffects(value.toString().trim())
+    }
+  }
+
   return
 }
 
