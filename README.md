@@ -318,7 +318,8 @@ await satori(
 Multiple fonts can be passed to Satori and used in `fontFamily`.
 
 > [!TIP]
-> We recommend you define global fonts instead of creating a new object and pass it to satori for better performace, if your fonts do not change. [Read it for more detail](https://github.com/vercel/satori/issues/590)
+We recommend defining fonts on the global level, instead of creating a new object and pass it to Satori on each generation. This generally improves the performance. More details can be found on [this issue](https://github.com/vercel/satori/issues/590).
+
 
 
 
